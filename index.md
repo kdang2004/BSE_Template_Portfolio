@@ -5,15 +5,17 @@ I am working on an Arduino Third Eye for the Blind. Users with visual disabiliti
 |:--:|:--:|:--:|:--:|
 | Kyra D. | Piedmont High School | Software Engineering | Incoming Senior
 
-![Headstone Image](https://bluestampengineering.com/wp-content/uploads/2016/05/improve.jpg)
-
-![Prototype_and_Final](https://user-images.githubusercontent.com/94956287/176246906-ea514ccc-3ee0-4a42-8a22-db13965170ff.JPG)
+<p align="center">
 <img src="https://user-images.githubusercontent.com/94956287/176249518-41fbc503-300a-44c9-b105-41aef7d56669.png" width="400">
 <img src="https://user-images.githubusercontent.com/94956287/176250830-977c3406-10c4-423c-be4b-18db8e569712.png" width="400">
-
+</p>
 
 # Final Milestone
 My final milestone is the addition of a thermistor that provides temperature readings. Negative Temperature Coefficient (NTC) Thermistors change resistance with temperature. By understanding the relationship between temperature and resistance, temperature readings can be obtained. I chose to add this modification because while those who are blind are typically able to feel when objects are hot, if they are reaching out fast or far, this added safety feature will override the buzzer or vibrating mode and will constantly beep until the detected object is below a certain threshold. I first tested the use of the thermistor on my prototype breadboard before adding it to the soldered micro. The thermistor is placed on the palm of the user's hand alongside the ultrasonic sensor, so that the device both determines distance and temperature as the user gets towards objects.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/94956287/176252080-bea44cc8-bcb4-4551-94b7-e2ddc74dafe7.JPG" width="500">
+</p>
 
 [![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612573869/video_to_markdown/images/youtube--F7M7imOVGug-c05b58ac6eb4c4700831b2b3070cd403.jpg )](https://www.youtube.com/watch?v=F7M7imOVGug&feature=emb_logo "Final Milestone"){:target="_blank" rel="noopener"}
 
@@ -30,5 +32,4 @@ My second milestone was getting my button and vibrating motor to work alongside 
 # First Milestone
 My first milestone was setting up my ultrasonic sensors and piezo buzzer. The ultrasonic sensor works by sending out an ultrasonic wave, and measuring the time it takes for that wave to bounce off an object and be received again by the sensor. I first tested the  sensor using basic example code in the Arduino library, to make sure that the distance measured between the sensor and target object was accurate. After getting my sensor to work, I added the piezo buzzer to the breadboard and used conditional statements to make the buzzer make noise when an onject was a certain distance. When the object is far away, there is no noise, but as the sensor gets closer to the object, the noise becomes mre high pitched and frequent, audibly letting the user know they are close to something.
 
-[![Kyra's First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1655485258/video_to_markdown/images/youtube--gY0ncTcIGnQ-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=gY0ncTcIGnQ "Kyra's First Milestone"){:target="_blank" rel="noopener"}
-
+[![Kyra's First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1656439828/video_to_markdown/images/youtube--gY0ncTcIGnQ-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=gY0ncTcIGnQ&t=17s "Kyra's First Milestone")
