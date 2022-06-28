@@ -8,6 +8,8 @@ I am working on an Arduino Third Eye for the Blind. Users with visual disabiliti
 ![Headstone Image](https://bluestampengineering.com/wp-content/uploads/2016/05/improve.jpg)
 
 ![Prototype_and_Final](https://user-images.githubusercontent.com/94956287/176246906-ea514ccc-3ee0-4a42-8a22-db13965170ff.JPG)
+<img src="https://user-images.githubusercontent.com/94956287/176249518-41fbc503-300a-44c9-b105-41aef7d56669.png" width="100">
+<img src="https://user-images.githubusercontent.com/94956287/176250349-7bf29eaa-b05a-4ef3-9bb0-08fa41aa407b.png" width="100">
 
 # Final Milestone
 My final milestone is the addition of a thermistor that provides temperature readings. Negative Temperature Coefficient (NTC) Thermistors change resistance with temperature. By understanding the relationship between temperature and resistance, temperature readings can be obtained. I chose to add this modification because while those who are blind are typically able to feel when objects are hot, if they are reaching out fast or far, this added safety feature will override the buzzer or vibrating mode and will constantly beep until the detected object is below a certain threshold. I first tested the use of the thermistor on my prototype breadboard before adding it to the soldered micro. The thermistor is placed on the palm of the user's hand alongside the ultrasonic sensor, so that the device both determines distance and temperature as the user gets towards objects.
