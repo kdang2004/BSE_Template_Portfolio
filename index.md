@@ -13,7 +13,7 @@ I am working on an Arduino Third Eye for the Blind. Users with visual disabiliti
 </p>
 
 # Materials
-Here is a [List to Materials](https://docs.google.com/spreadsheets/d/1bXbYIsI2RP88eoclDnVj5eQEKvsiCWf7lxlAHQSED3A/edit?usp=sharing).
+Here is a [List of Materials Needed](https://docs.google.com/spreadsheets/d/1bXbYIsI2RP88eoclDnVj5eQEKvsiCWf7lxlAHQSED3A/edit?usp=sharing).
 
 # Final Milestone
 My final milestone is the addition of a thermistor (thermal resistor) that provides temperature readings. Negative Temperature Coefficient (NTC) Thermistors change resistance with temperature. By understanding the relationship between temperature and resistance, temperature readings can be obtained. I chose to add this modification because while those who are blind are typically able to feel when objects are hot, if they are reaching out fast or far, they may hurt themselves by touching something that is at an unsafe temperature. This added safety feature will override the buzzer or vibrating mode and will constantly beep until the detected object is below a certain temperature threshold. I first tested the use of the thermistor on my prototype breadboard before adding it to the soldered micro. The thermistor is placed on the palm of the user's hand alongside the ultrasonic sensor, so that the device both determines distance and temperature as the user gets towards objects.
@@ -38,3 +38,9 @@ My second milestone was getting my button and vibrating motor to work alongside 
 My first milestone was setting up my ultrasonic sensors and piezo buzzer. The ultrasonic sensor works by sending out an ultrasonic wave, and measuring the time it takes for that wave to bounce off an object and be received again by the sensor. I first tested the  sensor using basic example code in the Arduino library, to make sure that the distance measured between the sensor and target object was accurate. After getting my sensor to work, I added the piezo buzzer to the breadboard and used conditional statements to make the buzzer make noise when an object was a certain distance. When the object is far away, there is no noise, but as the sensor gets closer to the object, the noise becomes mre high pitched and frequent, audibly letting the user know they are close to something.
 
 [![Kyra's First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1656439828/video_to_markdown/images/youtube--gY0ncTcIGnQ-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=gY0ncTcIGnQ&t=17s "Kyra's First Milestone")
+
+# Schematics
+![Schematics](https://user-images.githubusercontent.com/94956287/176941566-b27bc2e5-7e77-408f-94d1-79154a65c158.png)
+
+# Reflection
+I enjoyed working on this project with Bluestamp because it combined my previous knowledge of Arduino with more of the hardware aspects and instruction I was lacking. Before this program, I had experience in JavaScript and had worked with Arduino before, but I never had the chance to work with soldering to make a project portable and more functional. This project can assist the blind with day-to-day navigation and now that I am equipped with these skills, I can start creating more functional and beneficial devices. 
